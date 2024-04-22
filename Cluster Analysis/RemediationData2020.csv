@@ -1,0 +1,356 @@
+supplier,createDate,source,milestoneId,milestoneDescription,businessImpact,remediation
+IBaMéo,2/19/2020,Third Party Risk Review,SI-2020-02-19-0001-001,"IBaMèo did not provide the most current (or previous) penetration test, or a written summary of that test results, calling out the test dates, the test methodologies, a summary of findings, and remediation plans for any critical, high, or medium risk findings.
+
+DSR 6.a: Service and Systems Integrity and Availability Control 
+a. Supplier will 1) perform security and privacy risk assessments at least annually; 2) perform penetration testing and assess vulnerabilities, including automated system and application security scanning and manual ethical hacking, before production release and annually thereafter, 3) enlist a qualified independent third-party to perform penetration testing at least annually, 4) perform automated management and routine verification of compliance with security configuration requirements for each component of the Contracted Services, and 5) remediate identified vulnerabilities or noncompliance with its security configuration requirements based on associated risk, exploitability, and impact. Supplier will take reasonable steps to avoid disruption of Contracted Services when performing its tests, assessments, scans, and execution of remediation activities.  Upon IBM’s request, Supplier will provide IBM with a written summary of Supplier’s then-most recent penetration testing activities, which report must at a minimum include the name of the offerings covered by the testing, the number of systems or applications in-scope for the testing, the dates of the testing, the methodology used in the testing, and a high-level summary of findings.
+",Service and Systems Integrity and Availability Control,Provide penetration test as the evidence required to move from disposition of Conditional Go to Go.
+Code42,7/6/2020,Third Party Risk Review,SI-2020-07-06-0001-001,Code42 does not support BYOK,There is no separation of encryption and encryption key management,Requester to obtain reasonable satisfaction that BYOK is not technically feasible
+Resonance Health,6/30/2020,Third Party Risk Review,SI-2020-06-30-0001-001,No independent third-party penetration test has been carried out by the supplier.,Unknown vulnerabilities and misconfigurations.,"Supplier to carry out an independent, third party penetration test."
+Collective[i],2/18/2020,Third Party Risk Review,SI-2020-02-18-0001-001,Security posture of hosting datacenters must be satisfactorily reviewed before service go-live.,Inadequate datacenter security.,Security posture of hosting datacenters must be satisfactorily reviewed before service go-live. This can potentially be achieved by reviewing existing security certifications held by datacenter operator.
+Fenergo,3/22/2020,Third Party Risk Review,SI-2020-03-22-0001-001,Supplier has not deployed an Endpoint Detection and Response (EDR) solution within their environment.,"Lack of continuous monitoring and analysis to more readily identify, detect, and prevent advanced threats.",Fenergo should provide evidence of deployed Endpoint Detection and Response (EDR) solution within their environment to move from disposition of Conditional Go to Go.
+Fenergo,3/22/2020,Third Party Risk Review,SI-2020-03-22-0001-002,Supplier has not deployed an Infrastructure Scanning & Secure Configuration solution within their environment.,"Inability to identify potential points of exploit on a computer or network, to identify security holes.",Fenergo should provide evidence of deployed Infrastructure Scanning & Secure Configuration solution within their environment to move from disposition of Conditional Go to Go.
+Fenergo,3/22/2020,Third Party Risk Review,SI-2020-03-22-0001-003,Supplier has not deployed a Security Information and Event Management (SIEM) solution within their environment.,"Lack of real-time visibility across an organization's information security systems (e.g., event log management that consolidates data from numerous sources).",Fenergo should provide evidence of deployed Security Information and Event Management (SIEM) solution within their environment to move from disposition of Conditional Go to Go.
+Elucid,7/6/2020,Third Party Risk Review,SI-2020-07-06-0002-001,Disaster Recovery Plan has not been completed,"Inability to respond appropriately to a disaster, and to test disaster response and recovery practices","Complete, test and provide status of DRP testing"
+Sun Life,5/18/2020,Third Party Risk Review,SI-2020-05-18-0001-001,TELUS (third party) SOC 2 Report needs to be submitted to complete review,,
+Concentrix,5/12/2020,Third Party Risk Review,SI-2020-05-12-0001-001,Supplier has not provided confirmation that the 42 IP addresses covered in the penetration test report included the OMNI platform.,Unknown vulnerabilities and/or misconfigurations that could result in a security breach.,Supplier must confirm that the OMNI platform providing IBM services has been subject to independent third-party penetration testing and that all significant findings have been remediated. 
+Concentrix,5/12/2020,Third Party Risk Review,SI-2020-05-12-0001-002,"Supplier has not provided details of the remote access solution used by its agents working in IBM locations or at home, to connect securely to the CNX (OMNI) platform.",Unauthorized data exposure.,Supplier must provide details of an acceptable secure remote access solution deployed for agents supporting IBM customers at IBM locations and working from home. 
+SugarCRM,6/16/2020,Third Party Risk Review,SI-2020-06-16-0001-001,Penetration test report is over 12 months old.,"Unknown vulnerabilities and misconfigurations, leading to unauthorized data exposure.","A current, satisfactory penetration test report, from an independent third-party assessor is required."
+Pereion,7/1/2020,Third Party Risk Review,SI-2020-07-01-0001-001,"No penetration testing has been performed on the internal control environment of Acoustic. 
+","Unknown vulnerabilities and mis-configurations, that could lead to unauthorized access to, or exposure of, sensitive customer data.","Acoustic to carry out a dedicated penetration test of exposed interfaces and the internal control environment, using a recognized independent, professional penetration testing third party. "
+Pereion,7/1/2020,Third Party Risk Review,SI-2020-07-01-0001-002,"No Acoustic SOC 2 assessment, or security controls assessment, has been performed to test organizational controls related to security, availability, processing integrity, confidentiality or privacy. 
+","Systems and networks are not secure. If the supplier was to experience a significant outage, IBM revenue would be at risk.",Acoustic to conduct annual SOC 2 compliance for the ability to report on the design of controls (and/or testing and operating effectiveness of those controls).  
+Ernst & Young,1/30/2020,Third Party Risk Review,SI-2020-01-30-0001-001,"There was an exception noted in the SOC 1 and SOC 2 reports, relating to lack of documented evidence that access reviews to two internal systems in 2 of the 4 quarters of 2019. E&Y management asserts that reviews were carried out but were not documented; furthermore, a formal process is being introduced to ensure that reviews are properly documented going forward.
+
+It is recommended that 2020 SOC reports are closely reviewed to ensure that internal user access reviews are being appropriately carried out.",Unauthorized access by internal E&Y users.,Review 2020 SOC Reports to ensure that no further exceptions exist for user access review completion.
+Fairtec GmbH,6/25/2020,Third Party Risk Review,SI-2020-06-25-0001-001,"No SOC 2 assessment has been performed to test organizational controls related to security, availability, processing integrity, confidentiality or privacy. ","Systems and networks are not secure. If the supplier was to experience a significant outage, IBM revenue would be at risk.",Conduct annual SOC 2 compliance for the ability to report on the design of controls (and/or testing and operating effectiveness of those controls). Fairtec indicated in May 2020 that they have contacted several external auditors to engage for SOC 2 compliance.
+21st Century Software,10/28/2020,Assessment,189297,Conduct and provide an annual External Penetration Testing Report ,Conduct and provide an annual External Penetration Testing Report in Q3 2021 (before September 2021 or earlier). Scope will include security testing/scanning of all s/w components of code for the SYSchange for z/OS tool that will be integrated into IBM’s product offering.,
+21st Century Software,10/28/2020,Assessment,189290,Conduct and provide an annual Risk Assessment Report,"Conduct and provide an annual Risk Assessment Report in Q3 2021 (before September 2021 or earlier). The formal risk assessment should be performed annually. As part of the assessment, threats would be identified, and the risks of these threats would be assessed. Controls and mitigation strategies are developed for any identified risks. Scope includes all areas of operations and development and support for ISO compliance.",
+ABBYY,11/18/2020,Assessment,194707,Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process,"Offering Manager along with business unit BISO support complete compliance and adherence of IBM’s
+Secure Release Criteria (SRC) Process for security testing. Provide RBO and CISO SSRM team acknowledgement of compliance
+to SRC and final security testing results. Suggested to be completed within a reasonable timeframe (not to exceed 90 days
+after GA date). It is also understood that many of these suppliers will be replaced within a year or shortly after with IBM
+directly selected suppliers for similar functions/capabilities. Note: IBM Team (RBO and Offering Manager) to provide actual
+date of remediation action and any other specifics associated with the remediation action.",
+Advanced Messaging Systems,11/16/2020,Assessment,194007,Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process,"Finding #: 1
+Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process
+Risk Ranking: CAT1 (High)
+Recommendation: Offering Manager along with business unit BISO support complete compliance and adherence of IBM’s Secure Release Criteria (SRC) Process for security testing. Provide RBO and CISO SSRM team acknowledgement of compliance to SRC and final security testing results. Suggested to be completed within a reasonable timeframe (not to exceed 90 days after GA date). It is also understood that many of these suppliers will be replaced within a year or shortly after with IBM directly selected suppliers for similar functions/capabilities. Note: IBM Team (RBO and Offering Manager) to provide actual date of remediation action and any other specifics associated with the remediation action.
+
+",
+Akamai Technologies,8/26/2020,Assessment,181188,"Trust Criteria, Confidentiality, not tested in SOC Report","The SOC Report does not address Controls relating to Applicable Trust Criteria; Confidentiality.  Per IBM’s website terms, SOC report should address three AICPA Applicable Trust Criteria, Security, Availability and Confidentiality.",
+"Akasia, Inc",10/5/2020,Assessment,184498,IBM user access revalidation to be conducted every 90 days and this has to be agreed and documented in SOW (statement of work).,IBM user access revalidation to be conducted every 90 days and this has to be agreed and documented in SOW (statement of work).,product/services in scope of IBM.
+"Akasia, Inc",10/5/2020,Assessment,184484,SOW to be defined and agreed between IBM & supplier,SOW to be defined and agreed between IBM & supplier,"Document the product/service layout details, IT infrastructure details, communication and interfaces with IBM and suppliers’ sub-processors, and also to agree RACI among all stakeholders of product/service delivery"
+"Akasia, Inc",10/5/2020,Assessment,184491,Supplier to perform penetration testing on production web based and internet facing devices which covers the product/services provided to IBM. and this process must be continued on annul basis.,Supplier to perform penetration testing on production web based and internet facing devices which covers the product/services provided to IBM. and this process must be continued on annul basis.,All production web based and internet facing devices.
+"Alinean, Inc.",8/10/2020,Questionnaire Response,178524,Supplier use to access IBM COOL Solutioning tool to fetch IBM production information/ Sales details to update Valuestory platform in Realtime. But complete design and implementation not yet started ,"At an Initial stage of engagement with Alinean , IBM will share product information in the form of spread sheets and images 
+At later stage IBM will update product information at “IBM COOL cloud solutioning tool” and Alinean team will fetch IBM product updates by interfacing clouding solutioning tool with Alinean ValueStory Platform in real-time. 
+
+On reviewing the current scope of services, both IBM & supplier technical team have not defined (designed) the process or methods of sharing IBM product updates by interfacing solutioning tool with Alinean ValueStory Platform 
+
+As a part of SSRM review, this is considered as a potential finding, categorized as LOW finding 
+
+As a remediation to this finding, the action owner of this SSR shall coordinated with both the technical teams (IBM & Supplier end) to define (Design) & Implement the method of sharing IBM product updates by interfacing solutioning tool with Alinean Value Story Platform 
+
+This finding will be in OPEN status at SSRM issue tracker, with the remediation timelines 6 months from the date of this repot submission. 
+
+It is expected the requestor shall provide regular updates, and SSRM assessor will approach for updates. 
+",
+Allianz Life Insurance Malaysia Berhad,1/4/2021,Assessment,204853,"Penetration test results there were 4 High, 9 Medium vulnerabilities identified finding remediation's were in progress.","Penetration test results there were 4 High, 9 Medium vulnerabilities identified finding remediation's were in progress.",Supplier have shared the remediation plan to close 13 findings before end of February 2021. Post remediation supplier will run adhoc pen test and provide latest pen test report for closer of this finding
+AMAG,9/24/2020,Questionnaire Response,182539,Supplier AMAG to provide ISO 27001 statement of applicability (SOA),"2.	Supplier AMAG to provide ISO 27001 statement of applicability (SOA)
+
+Owner: Bob Stiller
+Email: rstiller@us.ibm.com 
+Timeline: End of October 2020
+Status: Open 
+","In regards to ISO 27001, AMAG  has decided to go with SOC2 instead of ISO 27001 as it is more relevant and covers basically the same as ISO does.
+
+Update from Aravind: AMAG SOC3 report is covering the control areas of service provided to IBM and ROB stated above SOC2 (reported provided SOC3) covers same as ISO so closing this issue."
+AMAG,9/10/2020,Questionnaire Response,182527,Supplier AMAG to provide SOC2 type1 Accreditation ,"1.	Supplier AMAG to provide SOC2 type1 Accreditation by October/2020
+
+Owner: Bob Stiller
+Email: rstiller@us.ibm.com 
+Timeline: End of November 2020
+Status: Open 
+","Supplier provided ""AMAG Technology 2020 SOC 3 Report"" which confirm supplier has SOC2 Type1 Accreditation. See attachment."
+Apptentive,1/12/2021,Assessment,206536,Conduct and provide an annual External Penetration Testing Report,"Perform penetration testing to discover vulnerabilities in systems, system components and services resulting from implementation errors, configuration faults, or other operational deficiencies, and share the testing results/executive summary with IBM.",
+Apptentive,1/12/2021,Assessment,206539,ISO 27001 Certification,Provide ISO 27001 certification upon completion.,
+Behold.ai,,Assessment,189674,Cancelled issue,Cancelled issue,
+Behold.ai,10/29/2020,Assessment,189667,Independent third-party audit/certification of information security controls,A Supplier may have unknown inadequate information security controls in place if it does not conduct a regular third-party evaluation of its information security program. The supplier has stated that it is currently engaged with Lloyds Register to conduct an ISO 27001 audit in Q1 2021. ,"Complete an independent, third-party evaluation of the Supplier’s Information Security controls."
+Behold.ai,10/29/2020,Assessment,189688,"Independent, third-party Penetration Test",A Supplier may have known vulnerabilities go undetected which can lead to greater likelihood of exploit.,Perform external penetration testing and provide RBO with penetration test results.
+Cipher Tech Solutions Inc,9/7/2020,Questionnaire Response,182399,Incident Response Policy and Procedure to be formally documented. ,"2)Incident Response Policy and Procedure to be formally documented. 
+>Nick/Anna to get the document
+Owner: Anne Jobmann
+Completion Timeline: as part of the agreement terms with the supplier
+The supplier will agree to contact the program owner if down time is to exceed 2 hours and alert the program owner to scheduled maintenance. The company follows DOD alerting for incidents and patching guidance.
+
+SSRM comments: We agree with your comment above and consider this as open item unless you document SLA terms with supplier either in SOW or contract document. we expect you to remediate this finding in 30 business days, so that we can close this finding in SSRM.
+
+19/OCT - Note: No update from RBO so Extending it by till 23rd Oct, and following up with RBO
+19/Oct- Update: Document is being reviewed by Procurement team, as updated RBO and confirmed to extend this to 15th Dec 2020
+06Jan21/ as per RBO request extending this till end of Jan 21.
+
+",
+Cipher Tech Solutions Inc,9/7/2020,Assessment,182417,SOW and RACI to be defined by the requestor (IBM) and supplier.,"4)As of now NO SOW and RACI defined by the requestor (IBM) and supplier.
+>Nick/Anna to provide the SOW and RACI document
+Owner: Anne Jobmann
+Completion Timeline: Within the course of the procurement cycle working with procurement and legal as we have done with past procurements
+The supplier will send IBM a licensing agreement for use of ACCE as with previous products and agreements
+
+SSRM comments: We agree with your comments above and consider this as OPEN item unless you document RACI Matrix within the SOW or contract document. we expect you to remediate this finding in 30 business days , so that we can close this finding in SSRM.
+","This is closed with document provided i.e. ""IBM Letter Agreement Cipher Tech Solutions_Final"" "
+Cipher Tech Solutions Inc,9/7/2020,Questionnaire Response,182408,There is no control effectiveness check and no Risk assessment conducted for ACCE platform by supplier on periodic basis,"3)There is no control effectiveness check and no Risk assessment conducted for ACCE platform by supplier on periodic basis. Supplier has no industry specific accreditations.
+>Nick/Anna to get the any internal audit external, audit document or any supporting document/certificate to give confidence that supplier environment is secure.
+Owner: Anne Jobmann
+Completion Timeline: as part of the agreement terms with the supplier
+The supplier will agree to contact the program owner if down time is to exceed 2 hours and alert the program owner to scheduled maintenance. The company follows DOD alerting for incidents and patching guidance.
+
+SSRM comments: The context of the finding is not addressed. We expect supplier to perform detailed risk assessment of ACCE platform supporting IBM, this is a potential finding at SSRM, we will record it as OPEN finding, until closure by supplier/IBM. At this point of assessment, we would expect supplier would remediate this finding in 30 business days, so that we can close this finding in SSRM
+19/OCT - Note: No update from RBO so Extending it by till 23rd Oct, and following up with RBO
+19/Oct- Update: Document is being reviewed by Procurement team, as updated RBO and confirmed to extend this to 15th Dec 2020","Based email confirmation from the supplier and the document ""ACCE Vulnerability Mitigation Process"" provided by the supplier, it confirms supplier is following periodic security assessment on the ACCE platform. So closing this issue."
+Citrix Systems Inc,,Assessment,186541,Pen Test Required,"As part of ""Conditional GO"" supplier is to provide a external Pen test report in Q2/Q3 2020.",
+Cloudera,9/18/2020,Assessment,179723,SOC 2 Type II,Cloudera to provide SOC 2 Type II report upon completion of examination of the CDP DC environment.,Cloudera to provide SOC 2 Type II report upon completion of examination of the CDP DC environment.
+CloudPhysics,11/13/2020,Assessment,192930,Absence of application penetration testing / Web Application Security Assessment (WASA),"Risk: Presence of known vulnerabilities and attack vectors that go undetected can lead to likelihood of exploit; There is greater potential in breach, considering the absence of the vulnerability scans (finding#1).
+Recommendation: Perform external application penetration testing/ Web Application Security Assessment (WASA) that incorporates external standards such as the OWASP Top Ten and CWE/SANS Top 25 periodically by ethical-hacking personnel through independent third party and provide IBM with executive summary results.",
+CloudPhysics,11/13/2020,Assessment,192923,Absence of threat and vulnerability testing program of the Cloudphysics software product,"Risk: Consistent Vulnerability scanning program should be implemented, considering the service is based off the software, to provide reasonable security assurance to customers. There is no way to know the inherent risk in the software product.
+Recommendation: Implement a vulnerability test program of the Cloudphysics product, include the procedures in the IT security policy and share the copy with IBM.",
+CloudPhysics,11/13/2020,Assessment,192938,Lack of documented organizational IT Security policies and guidelines,"Risk: The supplier is unable to produce the polices conforming to Information security, Risk management, Access control, Account management.
+Recommendation: Document the IT Security policies adequately and share the copy with IBM.",
+Code42 ,,Assessment,173424,BYOK,"Code42 Crashplan does not support BYOK
+
+Requester to obtain reasonable satisfaction that BYOK is not technically feasible. ","""Code42 secures the content of data - in part - by using encryption keys that are generated by Code42. There is no functionality in our product that would allow the introduction of externally defined keys.  Our system is distributed so that agents can function off-line this means our agents can perform cryptographic operations without a dependency on the cloud platform and the payload received by our storage services is opaque and already encrypted.  An individual encryption key is created per user."" Here are various architecture diagrams that should be of interest: https://support.code42.com/Administrator/Cloud/Monitoring_and_managing/Code42_security_architecture"
+Component Pro,11/16/2020,Assessment,193875,Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process,"Finding #: 1
+Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process
+Risk Ranking: CAT1 (High)
+Recommendation: Offering Manager along with business unit BISO support complete compliance and adherence of IBM’s Secure Release Criteria (SRC) Process for security testing. Provide RBO and CISO SSRM team acknowledgement of compliance to SRC and final security testing results. Suggested to be completed within a reasonable timeframe (not to exceed 90 days after GA date). It is also understood that many of these suppliers will be replaced within a year or shortly after with IBM directly selected suppliers for similar functions/capabilities. Note: IBM Team (RBO and Offering Manager) to provide actual date of remediation action and any other specifics associated with the remediation action.
+",
+Consensus,10/9/2020,Questionnaire Response,186550,"Security Information, Event Management and correlation of logs are not monitored","Description of the Finding: Security Information, Event Management and correlation of logs are not monitored. 
+Recommendation: Consensus to setup centralized event monitoring process to monitor and respond to the alerts and notifications generated by Security Information and Event Management (SIEM) tool.
+Remediation owner: Shaked Vax (svax@us.ibm.com)
+Remediation Timeline: 31st December 2020
+","Based on the email confirmation by the supplier that ""Consensus has implemented centralized event monitoring process for responding to the alerts and notifications coming from that systems/service provided to IBM"". will be closing this issue. PFA"
+Conviva Inc.,12/17/2020,Assessment,203211,IBM Internal Finding - Security Testing of Supplier's Code (Plugin),"Finding #: 1
+Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process
+Risk Ranking: CAT1 (High)
+Recommendation: RBO and Offering Manager along with business unit BISO support complete compliance and adherence of IBM’s Secure Release Criteria (SRC) Process for security testing. Provide RBO and CISO SSRM team acknowledgement of compliance to SRC and final security testing results. Suggested to be completed within a reasonable timeframe (estimated Q1 2021). Note: IBM Team (RBO and Offering Manager) to provide actual date of remediation action and any other specifics associated with the remediation action.
+Support Reference Links:
+•	Secure Release Criteria/Board (Blueline)
+o	https://w3.ibm.com/w3publisher/blueline/blueline-education/secure-release-criteria
+o	https://w3.ibm.com/w3publisher/security-biso-office/system-data-protection/secure-release-board
+
+•	Security & Privacy by Design
+o	https://w3.ibm.com/w3publisher/ccs-ciso/security-privacy-by-design
+",
+Cority Software Inc.,12/18/2020,Assessment,203232, IBM dedicated instance to be setup in Sungard data center located in Chicago post contract sign-off. ," IBM dedicated instance to be setup in Sungard data center located in Chicago post contract
+sign-off. 
+"," Once infrastructure is setup, supplier will conduct security validation checks (Vulnerability
+assessment, Penetration testing) on the IBM dedicated instance and share the reports, and with remediation plan if any critical, high, medium findings and raise new SSRM ticket to re-assess the supplier of the IBM instance of product & service, as a prerequisite for product go-live with IBM"
+Cority Software Inc.,12/18/2020,Assessment,203235, Single sign-on (SSO) to be implemented for IBM users to access Cority IBM dedicated instance. ," Single sign-on (SSO) to be implemented for IBM users to access Cority IBM dedicated instance. 
+", Deploy & configure SSO service using industry standards like SAML 2.0 or OpenID. Post implementation an evidence should be shared as pre-requisite for this finding close
+Crunchy Data Solutions,9/2/2020,Assessment,182020,External Penetration Test Results,"Finding  Executive Summary of external penetration test results was not provided when requested
+Risk:  Known and/or emerging vulnerabilities and attack vectors may go undetected resulting in the potential security breach.
+","Sent follow-up to Robert Johnson, Jan 5, 2021"
+Data Migrators,8/11/2020,Assessment,178971,Penetration Testing,"Data Migrators to perform penetration testing to discover vulnerabilities in systems, system components and services resulting from implementation errors, configuration faults, or other operational deficiencies, and share the testing results with IBM.",
+Data Migrators,8/11/2020,Assessment,178978,SDLC Policy,"Data Migrators to formalize, document, approve, and implement Secure SDLC policy.",
+Dataguise,5/1/2020,Questionnaire Response,160316,Future Plans to obtain SOC2 TYPE2 Assessment,Future Plans to obtain SOC2 TYPE2 Assessment,SOC is pending and will be completed in Q3 2020. They will send RBO SOC report when completed.
+DataStax,11/30/2020,Assessment,197511,Ensure software/code provided by this supplier is tested via IBM's Secure Release Criteria (Blueline) ,Ensure software/code provided by this supplier is tested via IBM's Secure Release Criteria (Blueline) - Pen Test and Scan. Testing results should be shared with SSRM Team and RBO and all future version s/w from supplier is also security tested. ,
+DataStax,10/29/2020,Assessment,189794,Penetration Test High Findings,"There are 2 high criticality findings on the most recent penetration test report, DataStax Astra – September 2020 Penetration Test Report that are in Pending Fix status.","Remediate the two (2) high criticality findings in Pending Fix status reported on the most recent penetration test report, DataStax Astra – September 2020 Penetration Test Report and provide update to RBO.
+01/06 - Discussed with RBO current over due findings. Email the supplier to inquire on completion of remediation for both findings."
+DataStax,10/29/2020,Assessment,189785,"SOC 2, Type II Audit Report","Complete an independent, third-party evaluation of the Supplier’s Information Security controls (e.g. SOC 2, Type II audit) and provide to RBO.","Complete the SOC 2, Type II audit already underway and provide report to RBO."
+DevExpress,11/19/2020,Assessment,195763,Supplier solution shall undergo IBM's Secure Release Process (SRC),The offering manager shall follow the Secure Release Process for security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) process.,
+"Dolby Laboratories, Inc",12/17/2020,Assessment,203185,SOC 2 Type 2 Report,Obtain and review copy of SOC 2 Type 2 Report at the third quarter,
+Elucid Bioimaging Inc.,8/19/2020,Assessment,173287,Disaster Recovery Plan,Supplier to provide evidence of Disaster Recovery Plan Completion/Testing and results.,Provided on Sept 28.  Reviewed the document online via DocSend on Sept 29.  Approved for closure
+Epsilon Imaging,10/6/2020,Assessment,185372,Absence of application pen testing,"Risk: Presence of known vulnerabilities and attack vectors that go undetected can lead to likelihood of exploit; There is
+greater potential in breach, considering the absence of the vulnerability/application scans (finding#1).
+Recommendation: Perform external application penetration testing and provide IBM with executive summary results.",
+Epsilon Imaging,10/6/2020,Assessment,185365,Absence of vulnerability testing/application scanning program of the Echoinsight software product,"Risk: consistent Vulnerability scanning or application scanning program should be implemented, considering the service
+is based off the software, to provide reasonable security assurance to customers. There is no way to know the inherent
+risk in the software product.
+Recommendation: Implement a vulnerability test/application scan program of the Echoinsight product, include the
+procedures in the IT security policy and share the copy with IBM.",
+Epsilon Imaging,10/6/2020,Assessment,185382,Lack of organizational IT Security policies and guidelines,"Risk: The supplier is unable to produce the polices conforming to Information security and the policies that were shared
+are outdated.
+Recommendation: Document the IT Security policy adequately, keep the organizational policies up to date and share
+the copy with IBM.",
+Ernst and Young,,Assessment,194910,New IBM Supplier Data Processing Agreement (DPA),Obtain a new IBM Supplier Data Processing Agreement (DPA) using the latest DPA template to capture new data elements being stored.,"2020-11-23: Jeff Norman (IBM Procurement) stated ""we were unsuccessful in getting EY to agree to the new online privacy and security terms as is. We have escalated this matter to our legal team to determine next steps. ""  Following up with Procurement on progress for updated DPA. "
+ESRI,1/13/2021,Assessment,206561,Complete Independent Penetration Test,Conduct an independent penetration test and provide test results/remediation activities to RBO,Will include in contract that supplier must comply by YE 2022.
+Fenergo,5/8/2020,Assessment,161631,No Infrastructure Vulnerability Management implemented. Plans to implement Qualys by end of Q2 2020.,Supplier has not deployed an Infrastructure Scanning & Secure Configuration solution within their environment.,"Fenergo has retained a Managed Service which is using qRader as part of its SIEM, endpoint solution has been implemented together with Qualys"
+Fenergo,5/8/2020,Assessment,161638,No SIEM logging management solution implemented. Plans are to implement Qradar by Q2 2020.,Supplier has not deployed a Security Information and Event Management (SIEM) solution within their environment.,Fenergo should provide evidence of deployed Security Information and Event Management (SIEM) solution within their environment to move from disposition of Conditional Go to Go.
+Fenergo,5/8/2020,Assessment,161624,Supplier has not deployed an Endpoint Detection and Response (EDR) solution within their environment.,"No device endpoint management. Plans to implement Microsoft Intune with critical areas (Development, operations) being prioritized over the next few months (March – May 2020), and the entire company by end of Q3 2020.",Recommendation: Fenergo should provide evidence of deployed Endpoint Detection and Response (EDR) solution within their environment to move from disposition of Conditional Go to Go.
+FIS,9/22/2020,Assessment,183563, FIS should not use IBM w3 IDs to access the GTS hosting environment,FIS employees will be granted IBM w3 User ID with SSO via VPN behind a limited range of IP addresses,The vendor will not use w3id to access the GTS hosting environment.  IBM is outsourcing the monitoring of some treasury activities to FIS within the FIS application itself.  The only way to log into the FIS application and perform the monitoring activities based on contractual requirement is through W3id.   
+FIS,9/22/2020,Assessment,183556,BYOK,FIS Application does not support BYOK.  Management should work with supplier to support BYOK,"The following will be included in the DPA as vendor does not support natively.
+
+Supplier will define and communicate to IBM existing controls to ensure the safety of the encryption keys.  Supplier commits to a regular key rotation for Supplier’s master key, planned every two years. This key rotation will be done during a key ceremony and follows separation of duties as defined in Supplier’s security policies. Supplier will allow IBM to review on an annual basis the encryption key usage and supporting documented procedure of the usage for encryption key management."
+GitLab,9/23/2020,Assessment,183635,Provide IBM with a SOC 2 Type 2 Report ,"Complete a third-party evaluation of Information Security control’s operating effectiveness and provide IBM with the report. The Supplier stated, ""We are targeting to achieve SOC2 Type 2 in Q1 of 2021.""",
+Glavsoft LLC,11/18/2020,Assessment,194577,Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process,"Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process
+
+Offering Manager along with business unit BISO support complete compliance and adherence of IBM’s
+Secure Release Criteria (SRC) Process for security testing. Provide RBO and CISO SSRM team acknowledgement of compliance
+to SRC and final security testing results. Suggested to be completed within a reasonable timeframe (not to exceed 90 days
+after GA date). It is also understood that many of these suppliers will be replaced within a year or shortly after with IBM
+directly selected suppliers for similar functions/capabilities. Note: IBM Team (RBO and Offering Manager) to provide actual date of remediation action and any other specifics associated with the remediation action.",
+GSA Gesellschaft für Softwareentwicklung und Analytik oHG,,Assessment,193743,Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process,"Finding #: 1
+Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process
+Risk Ranking: CAT1 (High)
+Recommendation: Offering Manager along with business unit BISO support complete compliance and adherence of IBM’s Secure Release Criteria (SRC) Process for security testing. Provide RBO and CISO SSRM team acknowledgement of compliance to SRC and final security testing results. Suggested to be completed within a reasonable timeframe (not to exceed 90 days after GA date). It is also understood that many of these suppliers will be replaced within a year or shortly after with IBM directly selected suppliers for similar functions/capabilities. Note: IBM Team (RBO and Offering Manager) to provide actual date of remediation action and any other specifics associated with the remediation action.
+",
+Hanzo,12/29/2020,Assessment,204754,"Hanzo to provide SOC 2 Type II report for the testing period Oct 01, 2019 through Sept 30, 2020.","Hanzo to provide SOC 2 Type II report for the testing period Oct 01, 2019, through Sept 30, 2020.
+
+Note: Hanzo is wrapping up this report and expecting it to be released in early 1Q 2021.",
+HazelCast,7/10/2020,Assessment,174083,Pentest Remediation Plan,"Provide Remediation Plan for the Pentest Review Report performed by Contex May 24, 2019","Evidence was provided on 10/27/2020 that the one high and two medium vulnerabilities identified, have been remediated"
+HazelCast,7/10/2020,Assessment,174069,SOC 2 Type 1 Report,"Provide IBM a copy of SOC 2 Type 1 Report by June 30, 2020","10/21, obtained and reviewed the SOC 2 Type 1 Report"
+HazelCast,7/10/2020,Assessment,174076,SOC 2 Type 2 Report,"Provide IBM with a SOC 2 Type 2 Report by October 1, 2020","Sent follow-up to Stephanie Ross, Jan 5, 2021"
+Healthcare Bluebook,11/17/2020,Assessment,194254,Penetration Testing,"Healthcare Bluebook to perform penetration testing to discover vulnerabilities in systems, system components and services resulting from implementation errors, configuration faults, or other operational deficiencies, and share the testing results with IBM. Note: IBM solution is being built and will be tested.",
+Humai  Tech,12/3/2020,Assessment,198604,Absence of latest application penetration testing / Web Application Security Assessment (WASA) results,"The last application external pen test was performed by one of the customers having partium in production in November 2019. Presence of known vulnerabilities and attack vectors that go undetected can lead to likelihood of exploit.
+Recommendation: Perform external application penetration testing/ Web Application Security Assessment (WASA) regularly that incorporates external standards such as the OWASP Top Ten and CWE/SANS Top 25 periodically by ethical-hacking personnel through independent third party and provide IBM with executive summary results","The last application external pen test was performed by one of the customers having partium in production in November 2019. Presence of known vulnerabilities and attack vectors that go undetected can lead to likelihood of exploit.
+Recommendation: Perform external application penetration testing/ Web Application Security Assessment (WASA) regularly that incorporates external standards such as the OWASP Top Ten and CWE/SANS Top 25 periodically by ethical-hacking personnel through independent third party and provide IBM with executive summary results"
+Humai  Tech,12/3/2020,Assessment,198601,End User computing – Antivirus can be disabled by individual users.,"Risk: Malicious activity, virus/ malware infection
+Recommendation: Controls should be implemented to prevent employees from disabling the antivirus agent on systems, particularly on systems used by employees to access customer order details with BCI data",
+Humai  Tech,12/2/2020,Assessment,198432,Lack of regular vulnerability assessments in action," 
+Risk: Although the vulnerability management policy exists, there is no evidence that regular consistent Vulnerability assessments are performed; considering the service is based off the software, these have to be performed regularly to provide reasonable security assurance to customers.  
+Recommendation: Implement a regular vulnerability test program of the partium product, include the frequency and procedures in the vulnerability management policy and share the copy with IBM
+",
+"Lotame Solutions, Inc",12/3/2020,Assessment,198612,ISO 27001 Certificate ,"Third party Security and compliance certifications prove that an entity meets a set of cybersecurity standards. Lotame is in the process of ISO 27001 certification exercise and has no corrective actions as part of Stage 1. The Stage 2 Audit with Schellman & Company LLC is underway, and certificate for ISO 27001 certification is expected on or about January 15.
+Recommendation: Provide the ISO 27001 certificate to IBM when its available.",
+"Lotame Solutions, Inc",12/3/2020,Assessment,198615,Penetration Testing in the last 12 months,"Absence of Penetration Testing in the last 12 months
+Risk: The last pen test was conducted in March 2019. Regular pen test exercises assist in the company’s security posture and helps in implementing pro-active security measures
+Recommendation: Conduct Penetration Testing exercise and provide the executive summary to IBM.",
+meQuilibrium,9/14/2020,Assessment,182469, Latest penetration test results with remediation to be taken as per the severity to be taken. , Latest penetration test results with remediation to be taken as per the severity to be taken. , All production web based and internet facing devices
+meQuilibrium,9/14/2020,Assessment,182448,Data retention & disposal policy to be defined and documented (IBM employee health data). ,Data retention & disposal policy to be defined and documented (IBM employee health data). ," IBM data retention to be documented in SOW / contract document, and to mention secure
+data disposal techniques complying to IBM standards."
+meQuilibrium,9/14/2020,Assessment,182476,Provide data flow diagram(showing interface and communication between various components ) of product deployed for IBM ,Provide data flow diagram(showing interface and communication between various components ) of product deployed for IBM , Diagram to cover secure end to end data flow showing all the components used.
+meQuilibrium,9/14/2020,Assessment,182455,SOW to be defined and agreed between IBM & supplier.,SOW to be defined and agreed between IBM & supplier.," Document the product/service layout details, IT infrastructure details, communication and interfaces with IBM and suppliers sub-processors, and also to agree RACI among all stakeholders of product/service delivery "
+meQuilibrium,9/8/2020,Assessment,182440,SSO implementation for IBM users not implemented in meQuilibrium environment.,SSO implementation for IBM users not implemented in meQuilibrium environment.,Requested for extension till 31/Jan/2021 for implementation 
+meQuilibrium,9/14/2020,Assessment,182462,Supplier to provide IBM DPA assessment report ,Supplier to provide IBM DPA assessment report ,"requested for extension till 31/jan/2021 for implementation 
+ 
+The report should comprise of assessed / validity dates and certified by IBM with respect to
+IBM SPI & PII data.
+"
+MITA Group,12/8/2020,Assessment,199560,Evidence that IPS/IDS installed in production environment,IPS/IDS not installed in the pre-production environment.  Needs to be installed in the production environment ,"Sent follow-up to Alan on Jan 5, 2021"
+MITA Group,12/8/2020,Assessment,199575,GBS to share all final contractual documentation with SSRM Group,GBS to share all final contractual documentation with SSRM Group,"Sent follow-up to Alan on Jan 5, 2021"
+MITA Group,12/8/2020,Assessment,199566,Install DPL in the production environment,DLP solution is not installed ,
+MITA Group,12/8/2020,Assessment,199569,PCI Compliant,Supplier/Verituity Platform is not PCI Compliant,
+MITA Group,12/8/2020,Assessment,199572,Share Risk Assessment and testing results performed by Bank of America on the production environment,Risk Assessment and test results on the production environment performed by Bank of America are shared with SSRM,"Sent follow-up to Alan Jan 5,  2021"
+MITA Group,12/8/2020,Assessment,199563,SOC 2 Type 2 Report,IBM to provide SOC 2 Type 2 on the environment and also ISO 2700 Certificate.,
+Muck Rack,9/30/2020,Assessment,184087,Deployment of Anti Virus -Anti Malware solution,Deployment of Antivirus solution for the IBM scoped instance and environment hosted.,From the Muck Rack side a/v has been rolled out to all of the servers.
+Muck Rack,9/30/2020,Assessment,184080,Penetration Test for MuckRack Application,Supplier to conduct the MuckRack application Pentest report by end of Feb 2021 and share the observations if identified.,
+Muck Rack,9/30/2020,Assessment,184072,SoC2 Type-II Certificate Attestation,Supplier to provide SoC2 Type-II attestation report by end of Feb 2021 and requested to share the remediation timelines for any open items in the report.,
+Omnio.net ApS,10/29/2020,Assessment,189876,Account lockout after a certain number of failed login attempts,"Enforce the account lockout after a certain number of failed login attempts. Per supplier, this is planned for end of Nov’2020.","11.19.2020: Per discussion with Anand, the contract is being signed and we shall push the remediation date, so changing the due date to 12.21.2020."
+Omnio.net ApS,10/29/2020,Assessment,189862,Intrusion Detection / Prevention System (IDPS).,Implement Intrusion Detection / Prevention System (IDPS).,
+Omnio.net ApS,10/29/2020,Assessment,189848,ISO27001 Certification,Provide ISO 27001 certification upon completion. ,
+Omnio.net ApS,10/29/2020,Assessment,189855,Penetration Testing,"Perform penetration testing to discover vulnerabilities in systems, system components and services resulting from implementation errors, configuration faults, or other operational deficiencies, and share the testing results/executive summary with IBM. ","11.19.2020: Per discussion with Anand, the contract is being signed and we shall push the remediation date, so changing the due date to 12.21.2020."
+Omnio.net ApS,10/29/2020,Assessment,189869,Timeout of inactive user sessions.,Enforce the timeout of inactive user sessions. ,"11.19.2020: Per discussion with Anand, the contract is being signed and we shall push the remediation date, so changing the due date to 12.21.2020."
+OneSpan,12/17/2020,Assessment,203216,Update and close findings as the remediation for each finding is completed,"It is the opinion of the assessor that OneSpan security controls and risk mitigations provide IBM with reasonable protections, and therefore the CISO Overall Disposition is a: Conditional Go.",
+OwnBackup,10/29/2020,Assessment,189714,Single sign-on (SSO) to be implementation for IBM users to access Ownbackup infrastructure.,Single sign-on (SSO) to be implementation for IBM users to access Ownbackup infrastructure.,Deploy & configure SSO service using industrial standards like SAML 2.0 or OpenID 
+OwnBackup,10/29/2020,Assessment,189728,SoC2 Type-II Certificate Attestation,SoC2 Type-II Certificate Attestation,"Supplier to provide SoC2 Type-II attestation report post security assessment
+
+
+"
+OwnBackup,10/29/2020,Assessment,189721,SOW & Data retention & disposal policy to be defined and documented (IBM data).,SOW & Data retention & disposal policy to be defined and documented (IBM data).," Document the product/service layout details, IT infrastructure details, communication and interfaces with IBM and suppliers’ sub-processors, and also to agree RACI among all stakeholders of product/service delivery   
+
+IBM data retention to be documented in SOW / contract document, and to mention secure data disposal techniques complying to IBM standards"
+Postman,12/9/2020,Assessment,199650,": At the time of supplier security review, supplier is not ready to provide the support for security review of the product because IBM is procuring less than 20 licenses.","At the time of supplier security review, supplier is not ready to provide the support for security review of the product because IBM is procuring less than 20 licenses.","SSRM team insisted IBM buyer to perform security validation checks  on the product provided by supplier before deploying in end-user workstations and remediation plan if any critical, high, medium findings. This process is agreed and, and post completion results will be shared to SSRM as a pre-requisite for this finding closer "
+Rocket Software,1/13/2021,Assessment,206609,Evidence of Software release testing completed,Project team to provide evidence that testing was completed for the release per contractual agreement.  ,
+Rocket Software,1/13/2021,Assessment,206612,Evidence that static source code scan result was provided by Rocket Software.,"Per IBM Project team, supplier is to provide evidence that static source code scan was performed on the software release that was provided to IBM",
+Rogue Wave by Perforce,9/29/2020,Assessment,184034,No documented process for securing the Supplier’s Software Development Lifce Cycle (SDLC),"Finding: No documented process for securing the Supplier’s Software Development Life Cycle (SDLC) was provided.
+
+Risk: Without a defined and document process for securing a SDLC, unknown vulnerabilities my end up in the release of the software product.
+
+Recommendation: Document how Rogue Wave secures its SLDC and provide recent secure code scans that the process is being followed.",
+Salesforce,7/17/2020,Assessment,174551,Remediation Plan,Remediation plan for identified vulnerabilities was not provided when requested ,
+Signifi Solutions Inc.,9/24/2020,Questionnaire Response,183648,Missing initial baseline configuration compliance report of Kiosk machine,"1.	Description of finding: Missing initial baseline configuration compliance report of Kiosk machine
+Recommendation: Signifi to run baseline security checks (compliance) for Kiosk machine and report the findings to IBM. 
+Remediation owner: Cheryl Owen (cherylao@us.ibm.com)
+Remediation Timeline: 9th October 2020
+Update: Extending the due date till 16th Oct 2020 as requested by RBO (Lucas Monti) over email. 
+15/Oct: Update: from RBO that supplier is still working on on it. ""We are still working on the baseline documentation. I hope to have it ready by October 23rd"".
+23/Oct: Update: Supplier provided the baseline document and requested to extend till 30th Oct 2020 so they can provide the report.
+28/Oct: Extending this to 13th Nov 2020 as requested by supplier and RBO
+25/Nov: extending this till 4th Jan 2021 as per supplier request.",Based on the document provided by the Signifi it confirms that baseline configuration compliant for Kiosk machine provided to IBM.
+Signifi Solutions Inc.,9/24/2020,Questionnaire Response,183657,Missing SOC 2 Type 1 Accreditation,"2.	Description of finding: Missing SOC 2 Type 1 Accreditation 
+Recommendation: SOC 2 Type 1 Accreditation to be submitted by Signifi by end of Q3 2020.
+Remediation owner: Cheryl Owen (cherylao@us.ibm.com)
+Remediation Timeline: End of Oct’2020
+23/Oct: As requested by RBO extending this till 4th Jan 2021 as SOC 2 Type 1 Accreditation is getting delayed.
+6/Jan 2021 - Michael Harrison <mharrison@signifi.com> requested extension till March 2021.",
+"Softlinx, Inc.",8/5/2020,Assessment,178325,2020 Pen Test Report,"Provide a completed 2020 External Pen Test Report for review and verification.  Supplier has confirmed that the 2020 penetration test will be available by the end of Q2 2020 (September 2020). Action: Provide IBM the final report for review and verification by the end of Q3, 2020 (September). Current Status: o	The testing just started and will take another 4-6 weeks to get a full written report. Estimated date to obtain report is 4-6 weeks and if there are any finding, another 2 weeks to remediate. The 2020 penetration test attestation and results will be available by the end of Q3, 2020 (September).",
+SoftwareKey.com,11/30/2020,Assessment,197636,Testing of Supplier Code/API/BOT/Software Package,IBM Offering Manager - 1) initial testing of supplier code (package) via secure release process 2) sharing with RBO and SSRM team the testing results and as well 3) on-going testing of any new code releases from the supplier. ,
+"Stream.io, Inc.",11/30/2020,Assessment,197319,ISO27001 Certificate Pending,Submit ISO 27001 Certificate when completed,Submit ISO Certificate when completed
+"Stream.io, Inc.",11/30/2020,Assessment,197316,SOC 2 Type 2 Report pending,Provide SOC 2 Type 2 Report when completed end of second quarter,
+Sysdig,7/10/2020,Assessment,174061,SOC 2 Type 2 Report Completion,"Provide IBM with a SOC 2 Type 2 Report by December 31, 2020","Sent follow-up to Stephanie Ross on Jan 5, 2021"
+Tokio Marine Life Insurance (Thailand) PCL,12/17/2020,Assessment,203139,"21 (High) vulnerabilities identified part of November 2020 monthly vulnerability scanning report , finding remediations were in progress.","21 (High) vulnerabilities identified part of November 2020 monthly vulnerability scanning report , finding remediation's were in progress.","Supplier have shared the remediation plan to close all 21 findings before end of December. Post remediation supplier will run vulnerability scanning and provide latest vulnerability report for closer of this finding
+Primary Owner – Supplier: Nitikorn Khamrim (nitikorn.kha@tokiomarinelife.co.th)
+Completion timelines: 31 / Jan /2021
+"
+Tokio Marine Life Insurance (Thailand) PCL,12/17/2020,Assessment,203136,"In penetration test results there were 1 (critical) , 2 (High),7 (Medium) vulnerabilities identified , finding remediations were in progress","In penetration test results there were 1 (critical) , 2 (High),7 (Medium) vulnerabilities identified , finding remediation's were in progress",": Supplier have shared the remediation plan to close 10 findings before end of December. Post remediation supplier will run adhoc pen test and provide latest pen test report for closer of this finding
+Primary Owner – Supplier: Nitikorn Khamrim (nitikorn.kha@tokiomarinelife.co.th)
+Completion timelines: 31 / Jan /2021
+"
+Tokio Marine Life Insurance (Thailand) PCL,12/17/2020,Questionnaire Response,203133,Supplier conducting user access review for IBM employees on annually basis.,Supplier conducting user access review for IBM employees on annually basis.,"As per IBM security guideline all IBM user access need to be reviewed every 90 days. supplier agreed to perform. Post implementation an evidence should be shared as pre-requisite for this finding closer.
+Primary Owner – Supplier: Nitikorn Khamrim (nitikorn.kha@tokiomarinelife.co.th)
+Completion timelines: 01 / Apr /2021
+"
+TRM (Total Resources Management),10/27/2020,Assessment,189070,"At the time of supplier security review, there are no security assessment / check are performed by supplier before sharing the modified source files (Java script codes) to IBM.","At the time of supplier security review, there are no security assessment / check are performed by supplier before sharing the modified source files (Java script codes) to IBM.","Supplier modified source files (java codes) shall be applied in IBM sandbox environment for static code scan followed by vulnerability scanning before deploying into production environment. This process is agreed and documented as part of SOW, and post completion results will be shared to SSRM as a pre-requisite for this finding closer "
+TRM (Total Resources Management),10/27/2020,Assessment,189062,Sharing of IBM design document and getting modified source code (Java script) file by supplier is carried out using unsure methods of communication.,Sharing of IBM design document and getting modified source code (Java script) file by supplier is carried out using unsure methods of communication.,"Setup a SFTP (with restricted access) as a secure mode of IBM code exchange between two entities. On configuring SFTP, an evidence should be shared as pre-requisite for this finding closer."
+Turbonomic,8/19/2020,Assessment,179761,Certificate of Compliance with ISO 20243,Turbonomic to provide certificate of compliance with ISO 20243,
+Turbonomic,7/20/2020,Assessment,174747,General Questions 00.00.01 - SOC 2 Type II,"Finding Statement : Turbonomic doesn’t participate in an evaluation of its continued suitability, adequacy, and effectiveness of information security controls by an independent third-party in SOC 2 Type II review. 
+
+Risk Statement: There is no reasonable assurance that information security controls and practices are implemented and operating effectively to adequately address current/emerging business and security risks, legislative, regulatory and contractual requirements.
+
+Recommendation: Turbonomic shall participate in an evaluation of its continued suitability, adequacy, and effectiveness of information security controls by an independent third-party in SOC 2 Type II review.",Turbonomic is currently undergoing SOC 2 Type II review and it’s due for completion by end of 2020.  
+Turbonomic,7/20/2020,Assessment,174763,General Questions 00.00.03 - Risk Assessment Policy and Process,"Finding Statement: Turbonomic doesn’t have a formal, documented, approved, and implemented risk assessment policy and/or process that includes identifying, analyzing, and evaluating risks to information systems, and outlines how risk response decisions will be made in partnership with the Turbonomic’s internal departments
+
+Risk Statement: Adequate risk management decisions may not be made for information systems in partnership with the internal departments.
+
+Recommendation: Turbonomic shall have a formal, documented, approved, and implemented risk assessment policy and/or process that includes identifying, analyzing, and evaluating risks to information systems, and outlines how risk response decisions will be made in partnership with the Turbonomic’s internal departments.",Turbonomic will develop policy and process and will perform risk assessment by end of 2020 along with the SOC 2 Type II review.
+Turbonomic,7/20/2020,Assessment,174770,Risk Assessment 01.01.01 - Penetration Testing,"Finding Statement: Turbonomic hasn’t performed penetration test for the external network and web application.
+
+Risk Statement: Known and/or emerging vulnerabilities and attack vectors may go undetected resulting in the potential for breach of data.
+
+Recommendation: Turbonomic shall perform penetration test for the external network and web application.",Turbonomic will engage a third-party to perform penetration testing of the external network and web application by end of 2020 along with the SOC 2 Type II review.
+Twilio,11/25/2020,Assessment,197210,Absence of remediation plan and status of the pen test findings,"Risk: Although pentest was conducted, the remediation plan or the status of the remediation of the findings has not been provided
+
+
+Remediation
+Implement a remediation plan with time line and share the copy with IBM
+
+",
+Twilio,11/25/2020,Assessment,197216,SOC 2 type 2 reports for Authy and Sendgrid ,"Finding #2: 
+Risk: Although the SOC 2 Type 2 reports were signed and dated in the last 6 months, the period that the tests were conducted is not in the last 12 months. 
+Recommendation: Provide the latest SOC 2 Type 2 reports for Authy and Sendgrid covering the last 12 months to IBM
+",
+Visma Enterprise Denmark A/S,12/3/2020,Assessment,198622,Missing vulnerability assessment for the service provided to IBM,"Description of finding: Missing vulnerability assessment for the service provided to IBM
+Recommendation: Visma to provide the vulnerability scan report for the services provided to IBM and hosting systems/servers with no Critical findings.
+Remediation owner IBM: Michael Reich (Reich@dk.ibm.com)
+Remediation owner VISMA: Erik Kalledsøe (erik.kalledsoe@visma.com)
+Remediation Timeline: 26th December 2020 
+","Email confirmation has been set by supplier confirming below: See attachment ""Email Artefact for Visma Enterprise Issue - 198622""
+I hereby confirm on behalf of Visma Enterprise A/S that we as written in the contract agreement (ITCS329) review that vulnerability scans are performed and processes for remediation are implemented by our sub suppliers and that we follow up on controls and findings through independent revision statements from an external revision company.  
+   "
+Webhose Ltd,9/2/2020,Assessment,182026,Webhose - Penetration Testing Results,Webhose to provide Penetration Testing results upon completion.,"Clear Gate performed penetration testing for the webhose portal. All identified critical, high, and medium  vulnerabilities have been remediated. Clear Gate re-performed penetration testing and no further critical, high, and medium vulnerabilities were identified. Please attached please see attached executive summary for additional details."
+WooCommerce,10/6/2020,Assessment,185356,Remediation of Digital Twin exchange vulnerabilities,Application vulnerability scan report conducted by HCL Appscan on cloud for Digital Twin exchange application and APIs for the period 13th Aug to 14th Aug 2020. Its noted that 70 High Risk Vulnerabilities are identified in the report.,
+Wrapmarket LLC,11/18/2020,Assessment,195048,Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process,"Finding #: 1
+Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process
+Risk Ranking: CAT1 (High)
+Recommendation: Offering Manager along with business unit BISO support complete compliance and adherence of IBM’s Secure Release Criteria (SRC) Process for security testing. Provide RBO and CISO SSRM team acknowledgement of compliance to SRC and final security testing results. Suggested to be completed within a reasonable timeframe (not to exceed 90 days after GA date). It is also understood that many of these suppliers will be replaced within a year or shortly after with IBM directly selected suppliers for similar functions/capabilities. Note: IBM Team (RBO and Offering Manager) to provide actual date of remediation action and any other specifics associated with the remediation action.",
+Wrapmarket LLC,,Assessment,195073,Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process,"Finding #: 1
+Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process
+Risk Ranking: CAT1 (High)
+Recommendation: Offering Manager along with business unit BISO support complete compliance and adherence of IBM’s Secure Release Criteria (SRC) Process for security testing. Provide RBO and CISO SSRM team acknowledgement of compliance to SRC and final security testing results. Suggested to be completed within a reasonable timeframe (not to exceed 90 days after GA date). It is also understood that many of these suppliers will be replaced within a year or shortly after with IBM directly selected suppliers for similar functions/capabilities. Note: IBM Team (RBO and Offering Manager) to provide actual date of remediation action and any other specifics associated with the remediation action.",
+XPS,9/23/2020,Assessment,183583,Data retention & disposal policy to be defined and documented (IBM employee health data).,Data retention & disposal policy to be defined and documented (IBM employee health data).,"IBM data retention to be documented in SOW / contract document, and to mention secure data disposal techniques complying to IBM standards."
+XPS,9/23/2020,Assessment,183576,SOW to be defined and agreed between IBM & supplier.,SOW to be defined and agreed between IBM & supplier.,"Document the product/service layout details, IT infrastructure details, communication and interfaces with IBM and suppliers sub-processors, and also to agree RACI among all stakeholders of product/service delivery"
+XPS,9/23/2020,Assessment,183590,Supplier to provide IBM DPA assessment report,Supplier to provide IBM DPA assessment report,
+Zoom Video Communications ,9/17/2020,Questionnaire Response,183364,Pen Test Report,"Hello Conor, Thank you for completing all the assessment request. I will start to review everything shortly. For the Pen Test Report, You attach a Vulnerability Scan Report, can you check with your team for a recent external Pen test report. I will also follow-up with some additional questions after I review everything.  Maybe we can also do a quick 30 min. call mid-late next week as well. Thanks Paresh","o	Zoom External Penetration Test(s): 
+?	Network Pen Test: Conducted by NCCGroup on 08/24/20. - No Issues.
+•	Scope: Between the days of May 11th and June 2nd, 2020, two (2) consultants from NCC Group engaged in an internal network penetration test for a total of thirty (30) person-days of effort against Zoom’s infrastructure. 
+•	No Major findings. Upon completion of the assessment, all other minor findings were reported to Zoom. All findings, recommendations and remediations have been addressed and completed.  
+?	Application Pen Test: Conducted by NCCGroup on 08/19/20. - No Issues.
+•	Scope: Between April 2020 and July 2020, consultants from NCC Group expended 10 person-weeks of effort on a web application architecture review and penetration test of the Zoom web application. 
+•	No Major findings. Upon completion of the assessment, all other minor findings were reported to Zoom. All findings, recommendations and remediations have been addressed and completed.  
+"
+Zscaler,1/6/2021,Assessment,192690,Provide current penetration test,"Conduct a new annual penetration test for 2020 and provide the penetration test report to RBO.
+12/08 - Supplier provided an update that, ""there is some delay on the Zscaler pen test reports for 2020 and they'll only be available in January. Rest assured that as soon as they will be ready, I'll send you a copy.""","01/06 - Check on Supplier if they are still on track to have the Pen Test report by January 31.
+12/08 - Supplier provided an update that they anticipate the Pen Test report in January 2021"
+ZZZ Projects,11/16/2020,Assessment,194139,Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process,"Finding #: 1
+Summary Action: Security testing of supplier’s components in accordance with IBM’s Secure Release Criteria (SRC) Process
+Risk Ranking: CAT1 (High)
+Recommendation: Offering Manager along with business unit BISO support complete compliance and adherence of IBM’s Secure Release Criteria (SRC) Process for security testing. Provide RBO and CISO SSRM team acknowledgement of compliance to SRC and final security testing results. Suggested to be completed within a reasonable timeframe (not to exceed 90 days after GA date). It is also understood that many of these suppliers will be replaced within a year or shortly after with IBM directly selected suppliers for similar functions/capabilities. Note: IBM Team (RBO and Offering Manager) to provide actual date of remediation action and any other specifics associated with the remediation action.
+",
